@@ -458,8 +458,8 @@ p {
   }
 
   .no-scroll {
-    overflow: hidden;
-    height: 100vh;
+    position: fixed;
+    width: 100%;
   }
 
   .header2 {
@@ -548,7 +548,7 @@ p {
 
   /*services*/
   .services {
-    height: 220vh;
+    height: auto;
   }
 
   .services .h1 {
@@ -570,7 +570,7 @@ p {
 
   /*about*/
   .about {
-    height: 102vh;
+    height: auto;
     flex-direction: column;
   }
 
@@ -590,7 +590,7 @@ p {
 
   .about div:nth-child(2) {
     width: 100%;
-    height: auto;
+    height: 400px;
   }
 
   .about div:nth-child(2) img:first-child {
@@ -599,7 +599,7 @@ p {
 
   .about div:nth-child(2) img:last-child {
     width: 100%;
-    height: 400px;
+    height: 100%;
     object-fit: cover;
   }
 
@@ -610,7 +610,7 @@ p {
 
   .basicInfo2 {
     width: 100%;
-    height: 30vh;
+    height: auto;
     background-color: #edcd1d;
     display: flex;
     flex-direction: column;
@@ -650,7 +650,7 @@ p {
 
   /*projects*/
   .projects {
-    height: 210vh;
+    height: auto;
     flex-direction: column;
   }
 
@@ -668,6 +668,10 @@ p {
 
   .projects .wrapper div div {
     width: 100%;
+  }
+  .projects .wrapper div div {
+    width: 100%;
+    height: 330px;
   }
 
   /*contact*/

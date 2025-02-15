@@ -54,3 +54,17 @@ try {
 } catch (error) {
   console.log(error);
 }
+
+/*navigate through menu on mobile*/
+const menuElements = menu.querySelectorAll(".menu h2");
+menuElements.forEach((element) => {
+  element.addEventListener("click", () => {
+    menu.classList.remove(
+      "active"
+    ); /*if u only remove this class the below will continue*/
+    document.body.classList.remove(
+      "no-scroll"
+    ); /*this class if not removed it'll brakes the page not allowing it to scroll*/
+    window.location.href = element.dataset.url;
+  });
+});

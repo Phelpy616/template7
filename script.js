@@ -64,7 +64,7 @@ menuElements.forEach((element) => {
     ); /*if u only remove this class the below will continue*/
     document.body.classList.remove(
       "no-scroll"
-    ); /*this class if not removed it'll brakes the page not allowing it to scroll*/
+    ); /*this class if not removed it'll brake the page not allowing it to scroll*/
     window.location.href = element.dataset.url;
   });
 });

@@ -24,6 +24,22 @@ html {
   display: none;
 }
 
+.menu{
+  display: none;
+}
+
+.top2{
+  display: none;
+}
+
+.basicInfo2{
+  display: none;
+}
+
+.about .imgAboutMobile{
+  display: none;
+}
+
 .header div:nth-child(1) {
   width: 30%;
   height: auto;
@@ -63,6 +79,10 @@ html {
   box-sizing: border-box;
   padding: 20px;
   gap: 20px;
+}
+
+.header div:nth-child(2) .home{
+  text-decoration: underline;
 }
 
 .header div:nth-child(2) h2,

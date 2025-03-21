@@ -16,6 +16,18 @@ body {
   z-index: 1000;
 }
 
+.header2 {
+  display: none;
+}
+
+.menu{
+  display: none;
+}
+
+.main .secondChild div:nth-child(3){
+  display: none;
+}
+
 .header div:nth-child(1) {
   width: 30%;
   height: auto;

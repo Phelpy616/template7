@@ -28,6 +28,27 @@ html {
   display: none;
 }
 
+/*tag*/
+.tag{
+  width: auto;
+  height: auto;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 3000;
+  background-color: black;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.tag p{
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  color: white;
+}
+
 .top2{
   display: none;
 }
@@ -538,6 +559,27 @@ p {
     margin: 0 0 25px 0;
     font-weight: 400;
   }
+
+    /*tag*/
+.tag{
+  width: auto;
+  height: auto;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 3000;
+  background-color: black;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.tag p{
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  color: white;
+}
 
   /*txt and image at the top*/
   .top {
